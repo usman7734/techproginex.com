@@ -1,0 +1,338 @@
+.topbar{
+    background-color: darkblue;
+}
+.brand-color{
+    color: darkblue;
+}
+.hover-social a i:hover{
+color: gold;
+}
+.first-image{
+    background-image: url(assets/photos/2.webp);
+    background-size: cover;
+}
+.section1{
+    background-color: rgb(0, 0, 74);
+}
+.nav-hover:hover{
+/* font-weight: bold; */
+color: gold !important;
+}
+
+.ImageExternalCSS{
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+.blur{
+    backdrop-filter:blur(4px);
+    background-color: #00143952;
+    /* width: 50%; */
+    /* margin: 0px 50px; */
+}
+
+.section02{
+    background-image: url(assets/photos/review.webp);
+    background-size: cover;
+    /* background-position: ; */
+    background-attachment: fixed;
+}
+.bottomImage{
+    /* filter: brightness(0);
+    filter: invert(1); */
+    filter:  brightness(0) invert(1);
+}
+.bottom-onhover{
+    color: white;
+    text-decoration: none;
+}
+.bottom-onhover:hover{
+    margin-left: 10px;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+@media screen and(max-width:550px) {
+   .first-image{ 
+    background-position-x: 1000px;
+    background-position-y: 200px;
+   }
+   .external-padding{
+    margin-bottom: 10px!important;
+    border: 2px solid red;
+   }
+}
+/* Giving Style to Digital Marketing Page */
+.section-dm-1{
+    background-color:#f0f1ff;
+}
+.dm-form-input-color{
+    background-color: darkblue;
+    margin: 10px;
+    color:white
+
+}
+.dm-form-input-color:focus
+{
+    background-color: blue;
+    color: white;
+}
+.dm-form-input-color::placeholder{
+    color: white;
+}
+.dm-types-external-css{
+height: 200px;
+border: 1px solid rgba(169, 167, 167, 0.515);
+width: 100%;
+padding: 15%;
+margin-top: 10%;
+}
+
+.dm-types-external-css:hover{
+    /* padding-top: -20%; */
+    /* margin-bottom: 10%; */
+    margin-top: 5%;
+    cursor: pointer;
+    transition:0.5s;
+    background-color: #f0f1ff;
+}
+.dm-aryson-external-css{
+    color: #2eb2ed;
+    background-color: #f0faff;
+    border-left: 5px solid #2eb2ed;
+    cursor: pointer;
+}
+.dm-aryson-external-css:hover{
+    background-color: #e1f1f9;
+}
+.dm-macsonic-external-css{
+    background-color:#f3f3f4;
+    color: #363737;
+    border-left: 5px solid #363737;
+    cursor: pointer;
+}
+.dm-macsonic-external-css:hover{
+    background-color: #e0e0ec;
+}
+
+.dm-cigati-external-css{
+    background-color:#e9edff;
+    color: #233d94;
+    border-left: 5px solid #233d94;
+    cursor: pointer;
+}
+.dm-cigati-external-css:hover{
+    background-color: #d4d8eb;
+}
+.dm-sysinfo-external-css{
+    background-color:#f3f9ff;
+    color: #275078;
+    border-left: 5px solid #275078;
+    cursor: pointer;
+}
+.dm-sysinfo-external-css:hover{
+    background-color: #dfe4e8;
+}
+.dm-drs-external-css{
+    background-color:#f5f8ff;
+    color: #3a4e83;
+    border-left: 5px solid #3a4e83;
+    cursor: pointer;
+}
+.dm-drs-external-css:hover{
+    background-color: #f0f1f3;
+}
+
+.read-more-btn{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.read-more-btn:hover{
+    /* text-decoration: underlin; */
+    border-bottom: 3px solid grey;
+    transition-duration: 0.1s;
+    
+}
+.blogheading:hover{
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+}
+.blogHoverImgae:hover{
+    /* width: ; */
+    transform: scale(1.05,1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.blogimage{
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.contactUsContainer{
+    background-color:#f0f1ff ;
+}
+.mapImage{
+    height: 50px;
+}
+.contactUsContainer:hover{
+    background-color: rgb(0, 0, 7);
+    color: white;
+}
+
+.contactUsFormLabel{
+    display: block;
+    padding: 2px;
+    font-weight: bold;
+}
+
+
+.contactUsFormInput{
+    display: block;
+    border: none;
+    padding: 4px;
+    font-size: 15px;
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.contactUsFormInput:focus{
+    /* border: none; */
+    /* background-color: red; */
+    border: 3px solid blue;
+    
+}
+.contactUsFormContainer{
+    background-color: #f0f1ff;
+    
+}
+
+.contactusUnderline{
+    /* text-decoration: underline; */
+    /* border-bottom: 1px solid black; */
+    /* color: darkblue; */
+    text-decoration: none;
+    font-weight: bold;
+}
+.contactusUnderline:hover{
+    color: white;
+}
+.ContactUsTextArea{
+    border: 3px solid white;
+    /* background-color: ; */
+
+}
+.ContactUsTextArea:focus{
+    border: 3px solid blue;
+}
+
+select{
+    border: 3px solid rgb(255, 255, 255);
+    font-weight: 350;
+    font-size: 17px;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+/* .selectioncourse{
+    border: 5px solid red;
+} */
+select option{
+    font-size: 20px;
+    background-color: darkblue;
+    color: white;
+    
+}
+
+/* about Us page */
+.headline{
+    font-size: 55px;
+    color: #5c5c5c;
+    font-weight: 700;
+}
+.headline-support {
+    font-family: open sans,Arial,sans-serif;
+    font-weight: 600;
+    color: #5c5c5c;
+}
+main#top {
+    background: aliceblue;
+}
+.rounded-3 {
+    border-radius: 0.8rem!important;
+}
+.about-block{
+    box-shadow: 0px 5px 20px 0px #316afd47;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; 
+    border-radius: 15px;
+    overflow: hidden; 
+}
+.about-left {
+    padding: 35px 15px 0 35px;
+}
+.main-button { 
+    font-weight: 500; 
+}
+.about-provide-block {
+    background: #f0f1ff;
+    padding: 25px;
+}
+.about-provide-block h3 {
+    color: #22346d;
+}
+.about-provide-block p {
+    margin:0;
+}
+.about-provide-block {
+    background: #f0f1ff;
+    padding: 25px;
+    border: 1px solid #22346d;
+    border-radius: 14px;
+}
+.about-provide-block:hover {
+    background: #001439;
+}
+.about-provide-block:hover h3, .about-provide-block:hover p{ 
+    color: #fff !important;
+}
+.common-gap {
+    row-gap: 24px;
+}
+.about-t-rounded {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.about-position-l {
+    position: relative;
+    left: 20%;
+}
+.about-position-r {
+    position: relative;
+    right: 20%;
+}
+@media screen and(max-width: 768px) {
+    .about-position-l {
+        position: relative;
+        left: 0;
+    }
+    .about-position-r {
+        position: relative;
+        right: 0%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:750px) {
+    .blog-border{
+        border: 1px solid black;
+        margin-top: 5px;
+    }
+    
+}
